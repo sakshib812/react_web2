@@ -26,11 +26,11 @@ export function SecurityProvider({ children }: { children: React.ReactNode }) {
       try {
         const instance = await SecureShield.init({
           tenantId: 'TEN-KOTAKBANK-6241',
-          appId: 'ast_web_427588',
+          appId: 'ast_web_473606',
           serverUrl: 'https://secureshield-api.testuat.com/api/v1/telemetry/ingest', // or 'https://secureshield.testuat.com'
           headerKey: 'enc:v1:57519259612c75991a426920:999c7351fa0291f8b999a209dd80b028:32f3f1f1227f33b29f688c705096d8e996df',
           encryptionKey: '/Oam5OybfrXH7cM0jgDrHXTXtqeXp5xI8Vvb3ODo/bw=',
-          initializationKey: 'init_sec_b742b92ce4a69379cd84bf77b0413f36a82db7a3782db5be',
+          initializationKey: 'init_sec_604090d3ddead3e4d7ea99d0143a837826f21da56d39a3d7',
           environment: 'production',
           enableRuntimeIntegrityWatchdog: true
         });
