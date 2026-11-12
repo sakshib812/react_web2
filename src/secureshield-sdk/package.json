@@ -1,0 +1,21 @@
+{
+  "name": "@secureshield/web",
+  "version": "4.0.0",
+  "description": "SecureShield Detection Engine SDK for Web (Modern Frameworks & NPM)",
+  "type": "module",
+  "main": "index.js",
+  "module": "secureshield.esm.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./secureshield.esm.js",
+      "default": "./secureshield.esm.js"
+    }
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "author": "SecureShield Team",
+  "license": "Commercial"
+}
